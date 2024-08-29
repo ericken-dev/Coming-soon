@@ -1,0 +1,103 @@
+   *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: ;
+   } 
+   :root{
+     --bgcolor-Img:linear-gradient(45deg,rgba(0,0,0,0.85), rgba(118,0,255,0.85));
+   }
+   .Mcome{
+     box-sizing: border-box;
+    width: 100%;
+     min-height: 100vh;
+    /* background:linear-gradient(45deg,rgba(0,0,0,0.85), rgba(118,0,255,0.85)),url();*/
+     background:var(--bgcolor-Img),url("ImgPic/background.jpg");
+    
+     background-position: center;
+     background-size: cover;
+     color: #fff;
+     text-align: center;
+   }
+    Nav{
+      width:100%;
+      display: flex;
+     /* align-items: center;*/
+      justify-content: space-between;
+      
+    }
+    .logo{
+      width: 100%;
+      cursor: pointer;
+    }
+    .btn{
+      background: linear-gradient(#6a33ff,#351a80);
+      color: white;
+      font-size: 16px;
+      padding: 16px 30px;
+      border-radius: 30px;
+      border: 0;
+      cursor: pointer;
+      cursor: pointer;
+    }
+    .content{
+      margin: 15% auto;
+    }
+    .content h1{
+      font-size: 65px;
+      font-weight: 400;
+      
+    }
+    .content h1 span{
+      font-weight: 700;
+    }
+    img{
+      height:60px;
+      width:30px
+      
+    }
+    form{
+      width: 90%;
+      max-width: 600px;
+      height: 65px;
+      background: white;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      border-radius: 40px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    form input{
+    
+      flex: 1;
+      padding: 20px 30px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      background: transparent;
+    }
+    form .btn{
+      padding: 0;
+      width: 150px;
+      height: 65px;
+      border-radius: 31px;
+    }
+    form input::placeholder{
+      font-size: 16px;
+    }
+    .links{
+      margin-top: 14%;
+    }
+    .links a{
+      margin: 10px;
+    }
+    .links a img{
+      width: 30px;
+    } 
+       
+      @media (max-width: 400px) {
+     form input{
+     width: 200px;
+       }
+      }
